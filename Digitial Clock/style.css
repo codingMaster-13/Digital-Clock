@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    -webkit-user-drag: none;
+}
+body{
+    font-family: 'Tahoma';
+    background: #1e1e1e;
+}
+.container{
+    background: black;
+    color: white;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(2.3);
+    padding: 3em 1em;
+    border-radius: 7px; 
+    font-size: 1.2em;   
+}
